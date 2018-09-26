@@ -1,0 +1,104 @@
+.information {
+    padding: 15px;
+    background-color:  #F6F7F8;
+    height: 70vh;
+}
+
+.profile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-heading button {
+    flex-basis: 18%;
+    background:none;
+    border: 1px solid #332935;
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.profile-heading h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile-heading button:active {
+    background-color: rgb(231, 233, 235);
+}
+
+.information-paragraph {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.start {
+    /* hide text if it more than N lines  */
+  overflow: hidden;
+  /* for set '...' in absolute position */
+  position: relative; 
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 3.6em; 
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;  
+  /* place for '...' */
+  margin-right: 2em;
+  padding-right: 1em;
+    
+}
+
+.start:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+  }
+
+  .start:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+  }
+
+
+.end {
+
+  /* for set '...' in absolute position */
+  position: relative; 
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  height:100%;
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;  
+  /* place for '...' */
+  margin-right: 2em;
+  padding-right: 1em;
+    
+}
+
+
+@keyframes slideDown {
+    0% {
+        height: 50px;
+    }
+    100%{
+        height: 100px;
+    }
+}

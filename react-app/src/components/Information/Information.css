@@ -34,6 +34,7 @@
     margin-top: 10px;
 }
 
+
 .start {
     /* hide text if it more than N lines  */
   overflow: hidden;
@@ -101,4 +102,71 @@
     100%{
         height: 100px;
     }
+}
+
+.more-button {
+    border: none;
+    background: none;
+    outline: 0;
+    font-size: 9px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-button:active {
+    color:rgb(63, 63, 63);
+}
+
+.workout-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.workout-heading h1 {
+    font-weight: bold;
+}
+.workout-heading button {
+    background:none;
+    border: none;
+    font-size: 9px;
+    outline: 0;
+    padding: 0;
+}
+
+.workout-heading button:active {
+    color:rgb(63, 63, 63);
+}
+
+.workout-list ul li a {
+    margin-top: 5px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.list-items {
+    flex-basis: 20%;
+    height: 8vh;
+    background-size: cover;
+}
+
+.list-1 {
+    background-image: url("../../images/list1.jpg");
+}
+
+.list-2 {
+    background-image: url("../../images/list2.jpg"); 
+}
+
+.list-3 {
+    background-image: url("../../images/list3.jpg"); 
+}
+
+.list-4 {
+    background-image: url("../../images/list4.jpg");
 }

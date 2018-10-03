@@ -1,6 +1,6 @@
 .profile-picture {
     display: flex;
-    height: 30vh;
+    height: 40vh;
     background-image: url("../../images/profile1.jpg");
     background-size: cover;
 }

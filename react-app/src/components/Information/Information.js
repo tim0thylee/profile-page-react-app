@@ -20,15 +20,15 @@ class Information extends Component {
             <div className="information">
                 <div className="profile-information">
                     <div className="profile-heading">
-                        <h1>James Galloway</h1>
+                        <h1>Kevin Hyun-Suk Kim</h1>
                         <button>Follow</button>
                     </div>
                     <div className="information-paragraph">
                         <p className={ this.state.toggle ? "end" : "start"}>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            Kevin is a certified DPT and passionate learner. His favorite sport is soccer, though he loves many types of sports.
+                            He has written many articles to share his vast knowledge and experience as a physical therapist and athlete. Feel free
+                            to check out some of his top articles below. If you find his articles helpful, make sure to follow his profile so that
+                            you will be the first to know about any new articles or fitness programs in the future. 
                         </p>
                         <button className="more-button" onClick={this.toggle}>More</button>
                     </div>

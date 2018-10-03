@@ -144,7 +144,7 @@
     color:rgb(63, 63, 63);
 }
 
-.workout-list ul li a {
+.workout-list ul li div {
     margin-top: 5px;
     margin-bottom: 5px;
     display: flex;
@@ -156,7 +156,7 @@
     font-weight: bold;
 }
 
-.workout-list ul li a:hover {
+.workout-list ul li div:hover {
     background-color: rgb(226, 226, 226)
 }
 
@@ -181,4 +181,8 @@
 
 .list-4 {
     background-image: url("../../images/list4.jpg");
+}
+
+.follow-div {
+    display: flex;
 }
